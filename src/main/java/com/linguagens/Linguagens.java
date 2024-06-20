@@ -1,5 +1,6 @@
 package com.linguagens;
 
+import threads.Tarefa;
 import threads.TarefaParalela;
 
 public class Linguagens {
@@ -9,8 +10,6 @@ public class Linguagens {
         TarefaParalela tarefa2 = new TarefaParalela(" 2");
         tarefa1.start();
         tarefa2.start();
-        tarefa1.join();
-        tarefa2.join();
         System.out.println("Main terminou");
 
     }
