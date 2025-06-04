@@ -1,7 +1,7 @@
 package threads;
 
 public class Tarefa {
-    String nome;
+    public String nome;
     
     public Tarefa(String nome) {
         this.nome = nome; 
